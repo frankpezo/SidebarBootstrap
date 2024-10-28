@@ -28,6 +28,28 @@ body {
     display: flex;
 }
 
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: calc(100% - 70px);
+    /* Ajuste para el sidebar */
+    margin-left: 70px;
+    /* Ajuste para el sidebar */
+    z-index: 1000;
+    display: flex;
+
+}
+
+.navbar.expand {
+    margin-left: 250px;
+    /* Ajuste para el sidebar expandido */
+    width: calc(100% - 250px);
+    /* Ajuste para el sidebar expandido */
+}
+
+
+
 .main {
     min-height: 100vh;
     width: 100%;
